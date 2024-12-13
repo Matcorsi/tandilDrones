@@ -1,0 +1,456 @@
+body{margin:0;}
+.header{
+    background-image: url('/images/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    color: #fff;
+    font-family: "Antonio", sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 2.5rem;
+    padding: 1.5rem;
+}
+a{
+    text-decoration: none;
+}
+#menu{
+    margin-top: 5px;
+    height: 1.8rem;
+    cursor: pointer;
+}
+.titulos{
+    margin: 20% 6%;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 3.7rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    margin: 1rem 0;
+}
+h3{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+    font-size: 1rem;
+}
+.btn-consultar{
+    background-color: #000;
+    color: #fff;
+    padding: 7px 50px;
+    font-family: "BenchNine", sans-serif;
+    font-size: 18px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+}
+.btn-consultar:hover, .btn-enviar:hover{
+    background-color: #161616;
+}
+
+.quienes-somos{
+    background-color: #ECECEC;
+    padding: 1rem 6% 11rem 6%;
+}
+
+.quienes-somos h1, 
+.section-white h1,
+.section-gray h1{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: "Antonio", sans-serif;
+    text-shadow: none;
+    font-weight: 700;
+    margin: 0;
+    padding: 2rem 0 1.5rem 0;
+}
+
+.quienes-somos p,
+.section-white p{
+    font-family: "Bellota Text", sans-serif;
+    font-size: 1.1rem;
+}
+
+p span, label{
+    font-weight: bold;
+    font-family: "Bellota Text", sans-serif;
+    font-size: 1.1rem;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8rem;
+    margin-bottom: 8rem;
+}
+
+.foto1, .foto2, .foto3 {
+    position: absolute;
+    transition: transform 0.3s;
+    border-radius: 3px;
+}
+
+.foto1 {
+    width: 13rem;
+    z-index: 1;
+    transform: translateX(-4rem);
+}
+
+.foto2 {
+    width: 10rem;
+    z-index: 2;
+    transform: translateX(5.5rem);
+}
+
+.foto3 {
+    width: 11.5rem;
+    z-index: 3;
+    transform: translateY(6rem);
+}
+.beneficios{
+    padding: 0 6%;
+    margin: 3rem 0;
+}
+.ben-div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.ben-div div{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.ben-div img{
+    width: 8rem;
+    height: 8rem;
+}
+.beneficios h1{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-family: "Antonio", sans-serif;
+    text-shadow: none;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.beneficios p{
+    font-family: "Bellota Text", sans-serif;
+    font-size: .9rem;
+}
+.der{
+    text-align: end;
+    text-align: right;
+}
+.section-gray{
+    background-color: #ECECEC;
+    padding: 1rem 6%;
+}
+.section-white{
+    padding: 1rem 6%;
+}
+/* Estilos para el contenedor del carrusel */
+.swiper {
+    width: 100%;
+    height: auto;
+    margin: 2rem 0 3rem 0;
+  }
+  
+  /* Estilos para las diapositivas */
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Estilos para las imágenes */
+  .swiper-slide img {
+    width: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  form div{
+    display: flex; 
+    flex-direction: column;
+    gap:10px;
+  }
+
+  form input{
+    height: 2rem;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+  }
+
+  form textarea{
+    height: 6rem;
+    border-color: #ECECEC;
+    border-radius: 3px;
+    box-shadow: none;
+  }
+
+  .btn-enviar{
+    background-color: #000;
+    color: #fff;
+    padding: 7px 50px;
+    font-family: "BenchNine", sans-serif;
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+  }
+
+  footer{
+    background-color: #000;
+    padding: 1rem 6%;
+  }
+
+  footer h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: "Antonio", sans-serif;
+    text-shadow: none;
+    font-weight: 700;
+    margin: 0;
+    padding: 2rem 0 1.5rem 0;
+  }
+
+  nav{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #fff;
+  }
+
+  nav ul{
+    color: #fff;
+    padding: 0;
+    margin: 5px;
+    font-family: "BenchNine", sans-serif;
+    font-size: 1.3rem;
+  }
+
+  footer img{
+    width: 1.7rem;
+    margin: 1rem 1rem 1rem 0;
+  }
+
+  @keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+  .flotante{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 55px;
+    right: 40px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); 
+    z-index: 1000;
+    border-radius: 100%;
+    animation: pulse 2s infinite;
+  }
+
+  #ver-menu {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 88%;
+    background-color: #000;
+    opacity: 97%;
+    padding: 1.5rem 6% 1rem 6%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-100%);
+}
+
+#ver-menu.abierto {
+    display: flex;
+    transform: translateY(0);
+}
+
+#ver-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#ver-menu li {
+    margin: 1.5rem 0;
+    font-family: "BenchNine", sans-serif;
+    font-size: 1.5rem;
+}
+
+#ver-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#ver-menu img {
+    width: 2.5rem;
+}
+
+.close {
+    display: flex;
+    justify-content: end;
+}
+
+
+
+/* Estilos desktop */
+
+@media (min-width: 1200px) {
+    body {
+        margin: 0;
+        font-family: "Bellota Text", sans-serif;
+    }
+
+    .navbar {
+        padding: 1.5rem 5%;
+    }
+
+    .navbar-list {
+        display: flex;
+        gap: 3rem;
+    }
+
+    .navbar-list li a {
+        font-size: 1.5rem;
+    }
+
+    .header {
+        height: 80vh;
+    }
+
+    .header .titulos h1 {
+        font-size: 4.5rem;
+    }
+
+    .header .titulos h3 {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .btn-consultar {
+        font-size: 1.2rem;
+        padding: 12px 60px;
+    }
+
+    .btn-consultar:hover, .btn-enviar:hover {
+        background-color: #161616;
+    }
+
+    .quienes-somos {
+        text-align: center;
+    }
+
+    .quienes-somos h1 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .quienes-somos p {
+        font-size: 1.2rem;
+    }
+
+    .container {
+        width: 100%;
+        height: 20rem;
+        margin-top: -10rem;
+        margin-bottom: 12rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foto1, .foto2, .foto3 {
+        width: 18rem;
+        height: auto;
+        transition: transform 0.3s;
+    }
+
+    .foto1 {
+        transform: translateX(-10rem);
+        z-index: 2;
+    }
+
+    .foto2 {
+        transform: translateY(11rem);
+        z-index: 3;
+    }
+
+    .foto3 {
+        transform: translateX(10rem);
+        z-index: 1;
+    }
+
+    .beneficios {
+        padding: 3rem;
+    }
+
+    .ben-div {
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        gap: 5rem;
+        flex-wrap: wrap;
+    }
+
+    .ben-div div {
+        width: 60%;
+    }
+
+    .ben-div img {
+        width: 10rem;
+        height: 10rem;
+        margin-bottom: 1rem;
+    }
+
+    .beneficios h1 {
+        font-size: 2.5rem;
+    }
+
+    .beneficios p {
+        font-size: 1.2rem;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 700px;
+        max-width: 100%; 
+    }
+
+}
