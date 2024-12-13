@@ -39,7 +39,7 @@ Carpeta que contiene todas las imágenes utilizadas en el sitio, incluyendo foto
 
 ## Deploy
 
-[httptandil-drones.vercel.app](https://tandil-drones.vercel.app/)
+[tandil-drones.vercel.app](https://tandil-drones.vercel.app/)
 
 ## Contacto
 
